@@ -6,7 +6,7 @@ model = pickle.load(open('prediksi_jantung.pkl', 'rb'))
 
 # Set the title and add an image
 st.title("Prediksi Kematian Gagal Jantung")
-st.image("taxi.jpg", width=400, caption="Taxi Image")
+st.image("prediksi_jantung.jpg", width=400)
 
 # Create input widgets in a single column
 st.sidebar.title("Input Data Pasien")
