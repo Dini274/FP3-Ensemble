@@ -1,7 +1,6 @@
 import pickle
 import streamlit as st
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
 
 # Load model
 model = pickle.load(open('prediksi_jantung.pkl', 'rb'))
